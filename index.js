@@ -26,7 +26,16 @@ var questions = [{
 {
   question: "Do you know what's Spiderman's real name?",
   answer: "Peter Parker"
-}];
+},
+{
+  question: "What's the latest marvel movie?",
+  answer: "Shang-Chi"
+},
+{
+  question: "Strongest Marvel superhero?",
+  answer: "Thor"
+}
+];
 
 function welcome() {
  var userName = readlineSync.question("What's your name? ");
